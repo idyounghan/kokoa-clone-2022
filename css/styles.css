@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/* Componenets */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* Screens */
+@import "screens/login.css";
+
+/* 모든 스크인에 적용 될 수 있는 부분을 표기 */
+body {
+  font-family: "Righteous", cursive;
+}
