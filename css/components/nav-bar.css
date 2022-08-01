@@ -1,9 +1,37 @@
 .nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background-color: #f9f9fa;
-  padding: 20px 0px;
+  padding: 30px 55px;
+  box-sizing: border-box;
+  border-top: 1.5px solid rgba(0, 0, 0, 0.08);
 }
 .nav__list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
+}
+
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  position: absolute;
+}
+
+.nav__ellipsis {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  color: #f9f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 31px;
+  bottom: 25px;
 }
